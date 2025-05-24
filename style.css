@@ -13,6 +13,8 @@ font-family: "Roboto", sans-serif;
 
 */
 
+/* Geral */
+
 *{
     margin: 0%;
     padding: 0%;
@@ -30,6 +32,16 @@ body {
     padding: 30px;
     background-color: #dfecfa;
 }
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    align-items: center;
+}
+
+
+/* Inicio */
 
 .inicio-img {
     width: 180px;
@@ -52,6 +64,9 @@ body {
     color: #313d7a;
     
 }
+
+
+/* primeiro */
 
 .primeiro {
     background-color: #313d7a;
@@ -76,11 +91,10 @@ body {
     text-align: center;
 }
 
-.segundo {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 50px;
-    align-items: center;
+/* segundo */
+
+section.segundo {
+    padding: 40px 4%;
 }
 
 .segundo-primeiro-h2 {
@@ -106,11 +120,10 @@ body {
     padding: 0%;
 }
 
-.terceiro {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 50px;
-    align-items: center;
+/* terceiro */
+
+section.terceiro {
+   padding: 40px 4%; 
 }
 
 .terceiro-img {
@@ -136,11 +149,10 @@ body {
     color: #313d7a;
 }
 
-.quarto {
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 50px;
-    align-items: center;
+/* quarto */
+
+section.quarto {
+    padding: 40px 4%;
 }
 
 .quarto-primeiro-h2 {
@@ -165,6 +177,8 @@ body {
 .quarto-img {
     padding: 0%;
 }
+
+/* quinto */
 
 .quinto {
     background-color: #e0ecf4;
@@ -193,6 +207,8 @@ body {
     background-color: #47cafd;
     color: #313d7a;
 }
+
+/* final */
 
 .final {
     display: flex;
