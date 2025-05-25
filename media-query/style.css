@@ -80,12 +80,16 @@
     
     /* quinto */
 
+    .quinto {
+        padding-bottom: 10px;
+    }
+
     .quinto-h2 {
         font-size: 28px;
     }
 
     .quinto-img img {
-        width: 400px;
+        width: 300px;
     }
 
     /* final */
@@ -93,10 +97,12 @@
     section.final {
         margin: 0px;
         padding: 0px;
+        padding: 40px 4%;
     }
 
     .final .flex {
         flex-direction: column;
+        justify-content: flex-start;
     }
 
     .final-img img {
@@ -107,7 +113,7 @@
         width: 340px;
     }
 
-    .final-ul-1 h4 {
-        padding-bottom: 10px;
+    .lgs {
+        padding-top: 50px;
     }
 }

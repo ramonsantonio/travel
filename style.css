@@ -210,10 +210,7 @@ section.quarto {
 
 /* final */
 
-.final {
-    display: flex;
-    justify-content: space-between;
-    padding: 70px;
+.final .flex {
     align-items: flex-start;
 }
 
