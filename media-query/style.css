@@ -6,7 +6,40 @@
         display: none;
     }
 
-    /* inicio */
+    .inicio {
+        margin: 0px;
+    }
+
+    /* Menu */
+
+    #menu {
+        display: block;
+    }
+
+    #menu:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    
+    #mobile {
+        background-color: #dfecfa ;
+        text-align: center;
+    }
+
+    #mobile ul {
+        padding: 5px;
+    }
+
+    #mobile ul li {
+        font-size: large;
+    }
+
+    #mobile ul li a {
+        color: black;
+        text-decoration: none;
+    }
+
+    /* primeiro */
 
     .primeiro-h1 {
         font-size: 28px;
